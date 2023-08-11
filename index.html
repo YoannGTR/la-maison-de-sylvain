@@ -9,18 +9,18 @@
     </head>
     <body>
         <header>
-            <nav>
-                <section id="logo">
-                    <a  href="./index.html" >
-                        <img src="./images/LMDS_MemoGraphique/Kit logo/Ecran/LMDS_logo_rev_rvb.png" alt="accueil">
-                    </a>
-                </section>
-                <section class="menu">
+            <nav class="menuHeader">
+                <section class="menuPC">
                     <article id="menuGauche">
                         <a class="btnMenu" href="./laTable.html">LA TABLE</a>
                         <a class="btnMenu" href="./leSalon.html">LE SALON</a>
                         <a class="btnMenu" href="./laCave.html">LA CAVE</a>
 
+                    </article>
+                    <article id="logo">
+                        <a  href="./index.html" >
+                            <img src="./images/LMDS_MemoGraphique/Kit logo/Ecran/LMDS_logo_rev_rvb.png" alt="accueil">
+                        </a>
                     </article>
                     <div id="menuEspace">
 
@@ -32,7 +32,35 @@
 
                     </article>
                 </section>
-                <label for="check" class="open-menu"><i class="fas fa-bars fa-2x" style="color : rgb(235, 235, 235)"></i></label>
+
+
+                <section class="menuTel">
+                    <article id="logotel">
+                        <a  href="./index.html" >
+                            <img src="./images/LMDS_MemoGraphique/Kit logo/Ecran/LMDS_logo_rev_rvb.png" alt="accueil">
+                        </a>
+                    </article>
+                    <input type='checkbox' id='check' />
+                    <article id="menu">
+                        <div id="logotel">
+                            <a  href="./index.html" >
+                                <img src="./images/LMDS_MemoGraphique/Kit logo/Ecran/LMDS_logo_rev_rvb.png" alt="accueil">
+                            </a>
+                        </div>
+                        <div id="listeMenu">
+                            <a class="btnMenu" href="./laTable.html">LA TABLE</a>
+                            <a class="btnMenu" href="./leSalon.html">LE SALON</a>
+                            <a class="btnMenu" href="./laCave.html">LA CAVE</a>
+                            <a class="btnMenu" href="./entreprise.html">ENTREPRISE</a>
+                            <a class="btnMenu" href="./evenements.html">EVENEMENTS</a>
+                            <a class="btnMenu" href="./sylvain.html">SYLVAIN ?</a>  
+                        </div>
+                        
+                        <label for="check" class="close-menu"><i class="fas fa-times"></i></label>
+                    </article>
+                    <label for="check" class="open-menu"><i class="fas fa-bars fa-2x" style="color : rgb(235, 235, 235)"></i></label>
+                </section>
+                
                 
                 
             </nav>
