@@ -79,7 +79,7 @@ body
     .btnMenu
     {
         width: 200px;
-        font-size: 33px;
+        font-size: 28px;
         text-decoration: none;
         color: white;
         text-align: center;
@@ -88,23 +88,7 @@ body
     }
     
 
-    main
-    {
-        background-image: url(./images/Accueil.jpg);
-        background-size: cover;
-        background-position: bottom;
-        height: 100vh;
-        margin: 0;
-    }
-    main>section
-    {
-        padding-top: 276px;
-
-    }
-    main p
-    {
-        margin: 0;
-    }
+    
 
    
 }
@@ -216,71 +200,77 @@ body
         
     }
 
-    main
-    {
-        background-image: url(./images/Accueil.jpg);
-        background-size: cover;
-        background-position: bottom;
-        height: 100vh;
-        margin: 0;
-    }
-    main>section
-    {
-        padding-top: 276px;
 
-    }
-    main p
-    {
-        margin: 0;
-    }
 }
 
+/*************
+    MAIN
+**************/
 
-/* main
+main
 {
-    margin-top: -276px;
+    
 }
+/* HAUT DE LA PAGE*/
 #hautDePage
 {
-    position: relative;
-    background-image: url('./images/Accueil.jpg');
+    background-image: url(./images/Accueil.jpg);
     background-size: cover;
+    background-position: bottom;
     height: 100vh;
     width: 100%;
 }
-#hautDePage>p
+#citation
 {
-    margin: 200px 0 0 100px;
-
-}
-#hautDePage>article
-{
-    position: relative;
-    width: 100%;
-    height: 50px;
-    background-color: rgba(0, 0, 0, 0.5);
-    top: 100vh;
     margin: 0;
-    margin-top: -100px;
+    position: absolute;
+    top:250px;
+    font-size: 32px;
+    right: 10%;
+    text-align: center;
+    font-weight: bold;
+    color: var(--colorWhite);
+}
+#elemCles, #elemCles>ul
+{
+    margin: 0;
     
 }
-#hautDePage>article>ul
+#elemCles
 {
-    position: relative;
-    display: flex;
-    align-items: center;
+    position: absolute;
+    bottom: 0;
+    left:0;
+    font-size: 24px;
     width: 100%;
-    margin: 0;
-    padding: 0;
-    height: 50px;
 }
-
-#hautDePage>article>ul>li
+#elemCles>ul
 {
-    position: relative;
+    padding: 0;
+    display: flex;
+    width: 100%;
+    height: 50px;
+    justify-content: space-between;
+    align-items: center;
+}
+#elemCles>ul>li
+{
     list-style: none;
     width: 33%;
     text-align: center;
     color: var(--colorWhite);
-    font-size: 40px;
-} */
+    font-weight: bold;
+
+}
+@media only screen and (max-width: 800px)
+{
+    #citation
+    {
+        top:170px;
+        right: 50%;
+        transform: translateX(50%);
+        white-space: nowrap;
+    }
+}
+
+/*Section 2*/
