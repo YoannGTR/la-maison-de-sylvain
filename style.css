@@ -140,7 +140,7 @@ body
         content: "";
         width: 0%;
         height: 3px;
-        background-color: var(--colorBlack);
+        background-color: var(--colorWhite);
         display: block;
         margin-right: auto;
         transition: 0.25s cubic-bezier(0.72,-0.01, 0.19, 0.92);
@@ -240,7 +240,7 @@ body
         content: "";
         width: 0%;
         height: 3px;
-        background-color: var(--colorBlack);
+        background-color: var(--colorWhite);
         display: block;
         margin-right: auto;
         transition: 0.25s cubic-bezier(0.72,-0.01, 0.19, 0.92);
@@ -342,7 +342,7 @@ body
         content: "";
         width: 0%;
         height: 3px;
-        background-color: var(--colorBlack);
+        background-color: var(--colorWhite);
         display: block;
         margin-right: auto;
         transition: 0.25s cubic-bezier(0.72,-0.01, 0.19, 0.92);
@@ -2382,7 +2382,7 @@ body
     {
         height: 100vh;
         width: 100%;
-        background-image: url(./images/temp.jpg);
+        background-image: url(./images/dylan-gillis-KdeqA3aTnBY-unsplash.jpg);
         background-size: cover;
         background-position: top;
 
@@ -2496,7 +2496,7 @@ body
     {
         height: 100vh;
         width: 100%;
-        background-image: url(./images/temp.jpg);
+        background-image: url(./images/dylan-gillis-KdeqA3aTnBY-unsplash.jpg);
         background-size: cover;
         background-position: top;
 
@@ -2613,7 +2613,7 @@ body
     {
         height: 100vh;
         width: 100%;
-        background-image: url(./images/temp.jpg);
+        background-image: url(./images/dylan-gillis-KdeqA3aTnBY-unsplash.jpg);
         background-size: cover;
         background-position: top;
 
@@ -2739,8 +2739,938 @@ body
 
 
 
+/***
+ *    ████████ ██ ███████ ██████  ███████       ██      ██ ███████ ██    ██ 
+ *       ██    ██ ██      ██   ██ ██            ██      ██ ██      ██    ██ 
+ *       ██    ██ █████   ██████  ███████ █████ ██      ██ █████   ██    ██ 
+ *       ██    ██ ██      ██   ██      ██       ██      ██ ██      ██    ██ 
+ *       ██    ██ ███████ ██   ██ ███████       ███████ ██ ███████  ██████  
+ *                                                                          
+ *                                                                          
+ */
 
 
+
+@media only screen and (min-width: 1200px)
+{
+    #TiersLieuHaut
+    {
+        height: 100vh;
+        width: 100%;
+        background-image: url(./images/maisonExt.JPG);
+        background-size: cover;
+        background-position: center;
+
+    }
+    #TiersLieuDesc
+    {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        width: 100%;
+        margin: 50px 0;
+    }
+    #TiersLieuDesc>h1
+    {
+        font-family: var(--fontGrasse);
+        font-size: var(--fontSizeh1);
+        color: var(--colorBlue);
+        font-weight: lighter;
+
+    }
+    #TiersLieuDescp1
+    {
+        font-size: var(--fontSizepPC);
+        margin: 50px;
+        text-align: center;
+    }
+
+    #TiersLieuDesc1
+    {
+        display: flex;
+        width: 85%;
+        justify-content: center;
+    }
+    #TiersLieuDesc1>img
+    {
+        width: 30%;
+    }
+    #TiersLieuDesc1>div
+    {
+        display: flex;
+        flex-direction: column;
+        width: 70%;
+        justify-content: center;
+        /* margin: 0 0 0 40px; */
+    }
+    #TiersLieuDesc1>div>div
+    {
+        display: flex;
+        align-items: center;
+        margin:10px 0 10px 50%;
+        transform: translateX(-50%);
+        width: 300px;
+    }
+    #TiersLieuDesc1>div>div>div
+    {
+        width: 30px;
+        height: 30px;
+        border: var(--colorBlue) solid 2px;
+        border-radius: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    #TiersLieuDesc1>div>div>div>span
+    {
+        color: var(--colorBlue);
+        font-family: var(--fontGrasse);
+        text-align: center;
+        font-size: var(--fontSizepPC);
+        
+    }
+    #TiersLieuDesc1>div>div>p
+    {
+        font-size: var(--fontSizepPC);
+        font-family: var(--fontGrasse);
+        text-align: center;
+        color: var(--colorBlue);
+        font-weight: lighter;
+        margin-left: 30px;
+    }
+
+    #TiersLieuDescp2
+    {
+        font-size: var(--fontSizepPC);
+        width: 86%;
+        margin: 50px 0;
+        text-align: center;
+    }
+
+    #TiersLieuDesc2
+    {
+        width: 85%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    #TiersLieuDesc2div1
+    {
+        display: flex;
+        align-items: center;
+        width: 90%;
+    }
+    #TiersLieuDesc2div1>img
+    {
+        width: 300px;
+        height: 300px;
+        min-width: 300px;
+        object-fit: cover;
+        border-radius: 500px;
+        margin: 0 50px 0 0;
+    }
+    #TiersLieuDesc2div1>h2
+    {
+        font-size: var(--fontSizeh2);
+        font-family: var(--fontGrasse);
+        color: var(--colorBlue);
+        margin: 0 0 0 50px;
+        width: auto;
+    }
+    #TiersLieuDesc2>p
+    {
+        margin: 50px 0;
+        font-size: var(--fontSizepPC);
+
+    }
+    #TiersLieuDesc2>p>span
+    {
+        color: var(--colorBlue);
+        font-weight: bolder;
+    }
+    #TiersLieuDesc2div2
+    {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 90%;
+    }
+    #TiersLieuDesc2div2>p
+    {
+        font-size: var(--fontSizepPC);
+        text-align: center;
+        margin: 0 50px 0 0;
+        width: 50%;
+        min-width: 400px;
+    }
+    #TiersLieuDesc2div2>p>span
+    {
+        color: var(--colorBlue);
+        font-weight: bolder;
+    }
+    #TiersLieuDesc2div2>img
+    {
+        width: 600px;
+        min-width: 500px;
+        height: 400px;
+        object-fit: cover;
+    }
+    #TiersLieuDescp3
+    {
+        font-size: var(--fontSizepPC);
+        text-align: center;
+        font-family: var(--fontGrasse);
+        color: var(--colorBlue);
+        margin: 50px 0 0 0;
+    }
+}
+
+
+
+@media only screen and (min-width: 800px) and (max-width: 1199px)
+{
+    #TiersLieuHaut
+    {
+        height: 100vh;
+        width: 100%;
+        background-image: url(./images/maisonExt.JPG);
+        background-size: cover;
+        background-position: center;
+
+    }
+    #TiersLieuDesc
+    {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        width: 100%;
+        margin: 50px 0;
+    }
+    #TiersLieuDesc>h1
+    {
+        font-family: var(--fontGrasse);
+        font-size: var(--fontSizeh1);
+        color: var(--colorBlue);
+        font-weight: lighter;
+        text-align: center;
+        width: 650px;
+
+    }
+    #TiersLieuDescp1
+    {
+        font-size: var(--fontSizepPC);
+        margin: 50px;
+        text-align: center;
+    }
+
+    #TiersLieuDesc1
+    {
+        display: flex;
+        width: 85%;
+        justify-content: center;
+    }
+    #TiersLieuDesc1>img
+    {
+        width: 30%;
+    }
+    #TiersLieuDesc1>div
+    {
+        display: flex;
+        flex-direction: column;
+        width: 70%;
+        justify-content: center;
+        /* margin: 0 0 0 40px; */
+    }
+    #TiersLieuDesc1>div>div
+    {
+        display: flex;
+        align-items: center;
+        margin:10px 0 10px 50%;
+        transform: translateX(-50%);
+        width: 300px;
+    }
+    #TiersLieuDesc1>div>div>div
+    {
+        width: 30px;
+        height: 30px;
+        border: var(--colorBlue) solid 2px;
+        border-radius: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    #TiersLieuDesc1>div>div>div>span
+    {
+        color: var(--colorBlue);
+        font-family: var(--fontGrasse);
+        text-align: center;
+        font-size: var(--fontSizepPC);
+        
+    }
+    #TiersLieuDesc1>div>div>p
+    {
+        font-size: var(--fontSizepPC);
+        font-family: var(--fontGrasse);
+        text-align: center;
+        color: var(--colorBlue);
+        font-weight: lighter;
+        margin-left: 30px;
+    }
+
+    #TiersLieuDescp2
+    {
+        font-size: var(--fontSizepPC);
+        width: 86%;
+        margin: 50px 0;
+        text-align: center;
+    }
+
+
+
+    #TiersLieuDesc2
+    {
+        width: 85%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    #TiersLieuDesc2div1
+    {
+        display: flex;
+        align-items: center;
+        width: 100%;
+    }
+    #TiersLieuDesc2div1>img
+    {
+        width: 200px;
+        height: 200px;
+        min-width: 200px;
+        object-fit: cover;
+        border-radius: 500px;
+        margin: 0 30px 0 0;
+    }
+    #TiersLieuDesc2div1>h2
+    {
+        font-size: var(--fontSizeh2);
+        font-family: var(--fontGrasse);
+        color: var(--colorBlue);
+        margin: 0 0 0 30px;
+        width: auto;
+    }
+    #TiersLieuDesc2>p
+    {
+        margin: 50px 0;
+        font-size: var(--fontSizepPC);
+
+    }
+    #TiersLieuDesc2>p>span
+    {
+        color: var(--colorBlue);
+        font-weight: bolder;
+    }
+    #TiersLieuDesc2div2
+    {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+    }
+    #TiersLieuDesc2div2>p
+    {
+        font-size: var(--fontSizepPC);
+        text-align: center;
+        width: 400px;
+        margin: 0 20px 0 0;
+    }
+    #TiersLieuDesc2div2>p>span
+    {
+        color: var(--colorBlue);
+        font-weight: bolder;
+    }
+    #TiersLieuDesc2div2>img
+    {
+        width: 300px;
+        min-width: 300px;
+        height: 300px;
+        object-fit: cover;
+    }
+    #TiersLieuDescp3
+    {
+        font-size: var(--fontSizepPC);
+        text-align: center;
+        font-family: var(--fontGrasse);
+        color: var(--colorBlue);
+        width: 90%;
+        margin: 50px 0 0 0;
+    }
+}
+
+@media only screen and (max-width: 799px)
+{
+    #TiersLieuHaut
+    {
+        height: 100vh;
+        width: 100%;
+        background-image: url(./images/maisonExt.JPG);
+        background-size: cover;
+        background-position: center;
+
+    }
+    #TiersLieuDesc
+    {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        width: 100%;
+        margin: 50px 0;
+    }
+    #TiersLieuDesc>h1
+    {
+        font-family: var(--fontGrasse);
+        font-size: var(--fontSizeh1);
+        color: var(--colorBlue);
+        font-weight: lighter;
+        text-align: center;
+        width: 400px;
+        max-width: 95%;
+
+    }
+    #TiersLieuDescp1
+    {
+        font-size: var(--fontSizeptel);
+        width: 90%;
+        margin: 50px 0;
+        text-align: center;
+    }
+
+    #TiersLieuDesc1
+    {
+        display: flex;
+        width: 95%;
+        justify-content: center;
+        align-items: center;
+    }
+    #TiersLieuDesc1>img
+    {
+        width: 30%;
+        display: none;
+    }
+    #TiersLieuDesc1>div
+    {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        justify-content: center;
+        /* margin: 0 0 0 40px; */
+    }
+    #TiersLieuDesc1>div>div
+    {
+        display: flex;
+        align-items: center;
+        margin:10px 0 10px 50%;
+        transform: translateX(-50%);
+        width: 280px;
+    }
+    #TiersLieuDesc1>div>div>div
+    {
+        width: 30px;
+        height: 30px;
+        border: var(--colorBlue) solid 2px;
+        border-radius: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    #TiersLieuDesc1>div>div>div>span
+    {
+        color: var(--colorBlue);
+        font-family: var(--fontGrasse);
+        text-align: center;
+        font-size: var(--fontSizepPC);
+        
+    }
+    #TiersLieuDesc1>div>div>p
+    {
+        font-size: var(--fontSizepPC);
+        font-family: var(--fontGrasse);
+        text-align: center;
+        color: var(--colorBlue);
+        font-weight: lighter;
+        margin-left: 30px;
+    }
+
+    #TiersLieuDescp2
+    {
+        font-size: var(--fontSizeptel);
+        width: 90%;
+        margin: 50px 0;
+        text-align: center;
+    }
+
+
+
+    #TiersLieuDesc2
+    {
+        width: 90%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    #TiersLieuDesc2div1
+    {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+    }
+    #TiersLieuDesc2div1>img
+    {
+        display: none;
+    }
+    #TiersLieuDesc2div1>h2
+    {
+        font-size: var(--fontSizeh2);
+        font-family: var(--fontGrasse);
+        color: var(--colorBlue);
+        margin: 0;
+        text-align: center;
+        max-width: 450px;
+    }
+    #TiersLieuDesc2>p
+    {
+        margin: 50px 0;
+        font-size: var(--fontSizeptel);
+        text-align: center;
+
+    }
+    #TiersLieuDesc2>p>span
+    {
+        color: var(--colorBlue);
+        font-weight: bolder;
+    }
+    #TiersLieuDesc2div2
+    {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+    }
+    #TiersLieuDesc2div2>p
+    {
+        font-size: var(--fontSizeptel);
+        text-align: center;
+        width: 400px;
+        margin: 0 0 40px 0;
+    }
+    #TiersLieuDesc2div2>p>span
+    {
+        color: var(--colorBlue);
+        font-weight: bolder;
+    }
+    #TiersLieuDesc2div2>img
+    {
+        width: 300px;
+        max-width: 100%;
+        height: 200px;
+        object-fit: cover;
+    }
+    #TiersLieuDescp3
+    {
+        font-size: var(--fontSizeptel);
+        text-align: center;
+        font-family: var(--fontGrasse);
+        color: var(--colorBlue);
+        width: 90%;
+        margin: 50px 0 0 0;
+    }
+}
+
+
+
+
+
+
+
+
+/***
+ *    ███████ ██    ██ ██      ██    ██  █████  ██ ███    ██ 
+ *    ██       ██  ██  ██      ██    ██ ██   ██ ██ ████   ██ 
+ *    ███████   ████   ██      ██    ██ ███████ ██ ██ ██  ██ 
+ *         ██    ██    ██       ██  ██  ██   ██ ██ ██  ██ ██ 
+ *    ███████    ██    ███████   ████   ██   ██ ██ ██   ████ 
+ *                                                           
+ *                                                           
+ */
+
+
+
+@media only screen and (min-width: 1200px)
+{
+    #sylvainHaut
+    {
+        height: 100vh;
+        width: 100%;
+        background-image: url(./images/Sylvain_couverture.jpg);
+        background-size: cover;
+        background-position: center;
+
+    }
+    #sylvainDesc
+    {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        width: 100%;
+        margin: 50px 0;
+    }
+    #sylvainDesc>h1
+    {
+        font-family: var(--fontGrasse);
+        font-size: var(--fontSizeh1);
+        color: var(--colorBlue);
+        font-weight: lighter;
+
+    }
+    #sylvainDesc>p
+    {
+        font-size: var(--fontSizepPC);
+        margin: 50px;
+        text-align: center;
+    }
+    #sylvainDesc>p>span
+    {
+        color: var(--colorBlue);
+        font-weight: lighter;
+        font-family: var(--fontGrasse);
+    }
+
+    #sylvainDescart1
+    {
+        display: flex;
+        flex-direction: column;
+        width: 85%;
+    }
+    #sylvainDescart1>div
+    {
+        display: flex;
+        width: 100%;
+        align-items: center;
+        margin: 40px 0;
+    }
+    #sylvainDescdiv1>img, #sylvainDescdiv3>img
+    {
+        height: 400px;
+        min-width: 500px;
+        width: 500px;
+        object-fit: cover;
+        margin: 0 150px 0 0;
+    }
+    #sylvainDescdiv2>img
+    {
+        height: 400px;
+        width: 500px;
+        min-width: 500px;
+        object-fit: cover;
+        margin: 0 0 0 150px;
+    }
+    #sylvainDescart1>div>div
+    {
+        /* margin: 75px; */
+    }
+    #sylvainDescart1>div>div>h2
+    {
+        font-size: var(--fontSizeh2);
+        color: var(--colorBlue);
+        font-family: var(--fontGrasse);
+        font-weight: lighter;
+        margin-bottom: 50px;
+    }
+    #sylvainDescart1>div>div>p
+    {
+        font-size: var(--fontSizepPC);
+    }
+
+    #sylvainDescart2
+    {
+        width: 85%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    #sylvainDescart2>h2
+    {
+        font-size: var(--fontSizeh2);
+        font-family: var(--fontGrasse);
+        font-weight: lighter;
+        color: #005473;
+        text-align: center;
+        margin: 50px 0;
+    }
+    #sylvainDescart2p1
+    {
+        text-align: center;
+        font-size: var(--fontSizepPC);
+        
+    }
+    #sylvainDescart2p2
+    {
+        
+        text-align: center;
+        font-size: var(--fontSizepPC);
+        font-family: var(--fontGrasse);
+        font-weight: lighter;
+        color: #005473;
+        margin: 50px 0;
+    }
+}
+
+
+@media only screen and (min-width: 800px) and (max-width: 1199px)
+{
+    #sylvainHaut
+    {
+        height: 100vh;
+        width: 100%;
+        background-image: url(./images/Sylvain_couverture.jpg);
+        background-size: cover;
+        background-position: center;
+
+    }
+    #sylvainDesc
+    {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        width: 100%;
+        margin: 50px 0;
+    }
+    #sylvainDesc>h1
+    {
+        font-family: var(--fontGrasse);
+        font-size: var(--fontSizeh1);
+        color: var(--colorBlue);
+        font-weight: lighter;
+    }
+    #sylvainDesc>p
+    {
+        font-size: var(--fontSizepPC);
+        margin: 50px 0;
+        width: 90%;
+        text-align: center;
+    }
+    #sylvainDesc>p>span
+    {
+        color: var(--colorBlue);
+        font-weight: lighter;
+        font-family: var(--fontGrasse);
+    }
+
+    #sylvainDescart1
+    {
+        display: flex;
+        flex-direction: column;
+        width: 90%;
+        margin: 50px 0;
+    }
+    #sylvainDescart1>div
+    {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        align-items: center;
+        margin: 60px 0;
+    }
+    #sylvainDescart1>div>img
+    {
+        height: 250px;
+        width: 100%;
+        object-fit: cover;
+        order: 1;
+        margin-bottom: -310px;
+    }
+    #sylvainDescart1>div>div
+    {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        order: 2;
+    }
+    #sylvainDescart1>div>div>h2
+    {
+        font-size: var(--fontSizeh2);
+        color: var(--colorBlue);
+        font-family: var(--fontGrasse);
+        font-weight: lighter;
+        margin-bottom: 300px;
+    }
+    #sylvainDescart1>div>div>p
+    {
+        font-size: var(--fontSizepPC);
+        text-align: center ;
+    }
+
+    #sylvainDescart2
+    {
+        width: 90%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    #sylvainDescart2>h2
+    {
+        font-size: var(--fontSizeh2);
+        font-family: var(--fontGrasse);
+        font-weight: lighter;
+        color: #005473;
+        text-align: center;
+        margin: 50px 0;
+    }
+    #sylvainDescart2p1
+    {
+        text-align: center;
+        font-size: var(--fontSizepPC);
+        
+    }
+    #sylvainDescart2p2
+    {
+        
+        text-align: center;
+        font-size: var(--fontSizepPC);
+        font-family: var(--fontGrasse);
+        font-weight: lighter;
+        color: #005473;
+        margin: 50px 0;
+    }
+}
+
+
+@media only screen and (max-width: 799px)
+{
+    #sylvainHaut
+    {
+        height: 100vh;
+        width: 100%;
+        background-image: url(./images/Sylvain_couverture.jpg);
+        background-size: cover;
+        background-position: center;
+
+    }
+    #sylvainDesc
+    {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        width: 100%;
+        margin: 50px 0;
+    }
+    #sylvainDesc>h1
+    {
+        font-family: var(--fontGrasse);
+        font-size: var(--fontSizeh1);
+        color: var(--colorBlue);
+        font-weight: lighter;
+        text-align: center;
+        width: 380px;
+        max-width: 95%;
+    }
+    #sylvainDesc>p
+    {
+        font-size: var(--fontSizeptel);
+        margin: 50px 0;
+        width: 90%;
+        text-align: center;
+    }
+    #sylvainDesc>p>span
+    {
+        color: var(--colorBlue);
+        font-weight: lighter;
+        font-family: var(--fontGrasse);
+    }
+
+    #sylvainDescart1
+    {
+        display: flex;
+        flex-direction: column;
+        width: 90%;
+        margin: 50px 0;
+    }
+    #sylvainDescart1>div
+    {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        align-items: center;
+        margin: 60px 0;
+    }
+    #sylvainDescart1>div>img
+    {
+        height: 250px;
+        width: 100%;
+        object-fit: cover;
+        order: 1;
+        margin-bottom: -350px;
+    }
+    #sylvainDescart1>div>div
+    {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        order: 2;
+    }
+    #sylvainDescart1>div>div>h2
+    {
+        font-size: var(--fontSizeh2);
+        color: var(--colorBlue);
+        font-family: var(--fontGrasse);
+        font-weight: lighter;
+        margin-bottom: 300px;
+        text-align: center;
+        height: 85px;
+        display: flex;
+        align-items: center;
+    }
+    #sylvainDescart1>div>div>p
+    {
+        font-size: var(--fontSizeptel);
+        text-align: center ;
+    }
+
+    #sylvainDescart2
+    {
+        width: 90%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    #sylvainDescart2>h2
+    {
+        font-size: var(--fontSizeh2);
+        font-family: var(--fontGrasse);
+        font-weight: lighter;
+        color: #005473;
+        text-align: center;
+        margin: 50px 0;
+    }
+    #sylvainDescart2p1
+    {
+        text-align: center;
+        font-size: var(--fontSizeptel);
+        
+    }
+    #sylvainDescart2p2
+    {
+        
+        text-align: center;
+        font-size: var(--fontSizeptel);
+        font-family: var(--fontGrasse);
+        font-weight: lighter;
+        color: #005473;
+        margin: 50px 0;
+    }
+}
 
 
 
