@@ -8,6 +8,11 @@
     src: format('VariableBlack'),
         url('./images/LMDS_MemoGraphique/Variable/Variable-Black.otf') format('opentype');
 }
+@font-face {
+    font-family: 'Filmotype';
+    src: format('FilmotypeLaCrosse'),
+        url('./images/LMDS_MemoGraphique/Filmotype\ La\ Crosse.woff.ttf') format('truetype');
+}
 
 *
 {
@@ -23,6 +28,7 @@
     --colorOrange2: #DE7C00;
     --fontGrasse : 'VariableBlack', Arial, Helvetica, sans-serif;
     --fontNormale : 'Variable', Arial, Helvetica, sans-serif;
+    --fontCitation : 'Filmotype', Arial, Helvetica, sans-serif;
     --fontSizeh1 : 3em;
     --fontSizeh2 : 2em;
     --fontSizeh3 : 1.65em;
@@ -538,12 +544,13 @@ body
 {
     margin: 0;
     position: absolute;
-    top:300px;
-    font-size: var(--fontSizeh2);
-    right: 300px;
+    top:250px;
+    font-size: var(--fontSizeh1);
+    right: 200px;
     text-align: center;
-    font-weight: bold;
+    font-weight: normal;
     color: var(--colorWhite);
+    font-family: var(--fontCitation);
 }
 #elemCles, #elemCles>ul
 {
@@ -669,11 +676,17 @@ body
     border: var(--colorBlack) 1px solid;
     font-size: var(--fontSizepPC);
     cursor: pointer;
+    transition: 0.1s;
 }
 .liens-btn-classique
 {
     width: 522px;
     margin: 50px;
+}
+.liens-btn-classique>button:hover
+{
+    color: var(--colorWhite);
+    background-color: var(--colorBlue);
 }
 
 
@@ -881,6 +894,7 @@ body
         right: 50%;
         transform: translateX(50%);
         white-space: nowrap;
+        font-size: 50px;
     }
     #elemCles>ul
     {
@@ -3671,6 +3685,226 @@ body
         margin: 50px 0;
     }
 }
+
+
+
+
+
+
+
+
+/***
+ *    ███████ ██    ██ ███████ ███    ██ ███████ ███    ███ ███████ ███    ██ ████████ ███████ 
+ *    ██      ██    ██ ██      ████   ██ ██      ████  ████ ██      ████   ██    ██    ██      
+ *    █████   ██    ██ █████   ██ ██  ██ █████   ██ ████ ██ █████   ██ ██  ██    ██    ███████ 
+ *    ██       ██  ██  ██      ██  ██ ██ ██      ██  ██  ██ ██      ██  ██ ██    ██         ██ 
+ *    ███████   ████   ███████ ██   ████ ███████ ██      ██ ███████ ██   ████    ██    ███████ 
+ *                                                                                             
+ *                                                                                             
+ */
+
+
+@media only screen and (min-width: 1200px)
+{
+    
+    #eventHaut
+    {
+        height: 100vh;
+        width: 100%;
+        background-image: url(./images/eric-rothermel-FoKO4DpXamQ-unsplash.jpg);
+        background-size: cover;
+        background-position: center;
+
+    }
+    #eventDesc
+    {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        width: 100%;
+        margin: 50px 0;
+    }
+    #eventDesc>h1
+    {
+        font-family: var(--fontGrasse);
+        font-size: var(--fontSizeh1);
+        color: var(--colorBlue);
+        font-weight: lighter;
+
+    }
+    #eventDesc>p
+    {
+        font-size: var(--fontSizepPC);
+        margin: 50px;
+        text-align: center;
+    }
+
+
+    #agendaExceptionnel
+    {
+        width: 85%;
+        margin: 0 7.5%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    #agendaExceptionnel>h2
+    {
+        font-family: var(--fontGrasse);
+        font-size: var(--fontSizeh2);
+        color: var(--colorBlue);
+        font-weight: lighter;
+    }
+    .eventExceptionnel
+    {
+        display: flex;
+        justify-content: center;
+    }
+    .eventExceptionnel>div
+    {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 400px;
+        padding: 50px;
+        border: 2px gray solid;
+        margin: 30px;
+    }
+    .eventExceptionnel>div>img
+    {
+        width: 100%;
+        height: 300px;
+        object-fit: cover;
+    }
+    .eventExceptionnel>div>div
+    {
+        display: flex;
+        width: 100%;
+        justify-content: space-between;
+        margin: 20px 0;
+    }
+    .themeAgendaEx
+    {
+        padding: 10px;
+        margin: 5px 5px 5px 0;
+        background-color: var(--colorBlue);
+        color: var(--colorWhite);
+        font-size: var(--fontSizeh4);
+    }
+    .dateAgendaEx
+    {
+        font-size: var(--fontSizeh4);
+        margin-left: 20px;
+        text-align: center;
+    }
+    .eventExceptionnel>div>h3
+    {
+        font-size: var(--fontSizeh3);
+        width: 100%;
+        color: var(--colorBlue);
+        font-family: var(--fontGrasse);
+        font-weight: lighter;
+        margin-bottom: 10px;
+    }
+    .eventExceptionnel>div>p
+    {
+        font-size: var(--fontSizepPC);
+        width: 100%;
+    }
+
+
+    #agenda
+    {
+        width: 80%;
+        margin: 100px 10%;
+        display: flex;
+        flex-direction: column;
+    }
+    #agenda>h2
+    {
+        
+        font-size: var(--fontSizeh2);
+        color: var(--colorBlue);
+        font-family: var(--fontGrasse);
+        font-weight: lighter;
+        margin: 30px 0;
+    }
+
+    .jourAgenda
+    {
+        display: flex;
+        flex-direction: column;
+        margin: 20px 0 0 0;
+
+    }
+    .jour
+    {
+        background-color: var(--colorBlue);
+        padding: 10px 20px;
+    }
+    .jour>h3
+    {
+        font-size: var(--fontSizeh3);
+        color: var(--colorWhite);
+        font-family: var(--fontGrasse);
+        font-weight: lighter;
+    }
+    .eventAgenda
+    {
+        display: flex;
+        padding: 20px 0;
+        border-top: solid 1px var(--colorBlue);
+    }
+    .eventAgenda>img
+    {
+        width: 250px;
+        height: 250px;
+        min-width: 250px;
+        object-fit: cover;
+    }
+
+    .infosEventAgenda
+    {
+        width: 35%;
+        margin: 0 20px;
+    }
+    .infosEventAgenda>h3
+    {
+        font-size: var(--fontSizeh3);
+        color: var(--colorBlue);
+        font-family: var(--fontGrasse);
+        font-weight: lighter;
+    }
+    .themeEventAgenda
+    {
+        display: flex;
+    }
+
+    .themeEventAgenda>div
+    {
+        padding: 10px;
+        margin: 5px 5px 5px 0;
+        background-color: var(--colorBlue);
+        color: var(--colorWhite);
+        font-size: var(--fontSizeh4);
+    }
+    .periodeEvent, .lieuEvent, .prixEvent
+    {
+        font-size: var(--fontSizeh4);
+    }
+
+
+    .descEvnetAgenda
+    {
+        width: 35%;
+        font-size: var(--fontSizepPC);
+    }
+}
+
+
+
+
+
 
 
 
