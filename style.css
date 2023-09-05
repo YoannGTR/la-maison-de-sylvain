@@ -151,7 +151,8 @@ body
         margin-right: auto;
         transition: 0.25s cubic-bezier(0.72,-0.01, 0.19, 0.92);
     }
-    .btnMenu:hover:after {
+    .btnMenu:hover:after, .pageActuelle:after
+    {
         width: 100%;
     }
    
@@ -544,7 +545,7 @@ body
 {
     margin: 0;
     position: absolute;
-    top:250px;
+    top:220px;
     font-size: var(--fontSizeh1);
     right: 200px;
     text-align: center;
@@ -711,8 +712,9 @@ body
 {
     display: flex;
     width: 90%;
-    margin: 40px 5%;
+    margin: 20px 5%;
     justify-content: center;
+    align-items: center;
 }
 #section3>article>img
 {
@@ -883,7 +885,7 @@ body
     .liens-btn-classique
     {
         width: 350px;
-        max-width: 100%;
+        max-width: 90%;
         margin: 50px 0;
     }
 
@@ -926,11 +928,14 @@ body
     .container-img
     {
         margin: 20px;
+        flex-direction: column;
+        align-items: center;
     }
     .container-img>a
     {
         height: 150px;
-        width: 150px;
+        width: 90%;
+        margin: 10px 0;
     }
     .infos-hover>p
     {
@@ -954,7 +959,7 @@ body
     #section3>article
     {
         width: 100%;
-        margin: 80px 0;
+        margin: 100px 0;
         flex-direction: column;
         align-items: center;
         justify-content: flex-start;
@@ -962,12 +967,12 @@ body
     #section3>article>img
     {
         height: 250px;
-        width: 95%;
+        width: 90%;
         margin: 0 2.5% -320px 2.5%;
     }
     #section3>article>div
     {
-        width: 95%;
+        width: 90%;
         margin: 2.5%;
     }
     #section3>article>div>h2
@@ -981,7 +986,7 @@ body
     #section3>article>div>p
     {
         font-size: var(--fontSizeptel);
-        margin-top: 270px;
+        margin-top: 300px;
         text-align: center;
     }
     #sect3salon>img
@@ -1220,7 +1225,7 @@ body
         display: flex;
         flex-direction: row;
         justify-content: center;
-        margin: 50px 0;
+        margin: 50px 0 30px 0;
     }
     #tableProposistionArt>figure
     {
@@ -1407,7 +1412,7 @@ body
         display: flex;
         flex-direction: row;
         justify-content: center;
-        margin: 50px 0;
+        margin: 50px 0 0 0;
     }
     #tableProposistionArt>figure
     {
@@ -1599,7 +1604,7 @@ body
         display: flex;
         flex-direction: column;
         align-items: center;
-        margin: 50px 0;
+        margin: 50px 0 0 0;
     }
     #tableProposistionArt>figure
     {
@@ -1914,8 +1919,8 @@ body
         display: flex;
         align-items: center;
         flex-direction: column;
-        width: 95%;
-        margin: 2.5%;
+        width: 90%;
+        margin: 5%;
 
     }
     #salon_art1
@@ -2142,7 +2147,7 @@ body
     {
         font-size: var(--fontSizepPC);
         margin-top: 20px;
-        text-align: justify;
+        text-align: left;
     }
 
     #caveDescp2
@@ -2239,7 +2244,7 @@ body
     {
         font-size: var(--fontSizepPC);
         margin-top: 20px;
-        text-align: justify;
+        text-align: left;
     }
 
     #caveDescp2
@@ -2348,7 +2353,7 @@ body
     {
         font-size: var(--fontSizepPC);
         margin-top: 20px;
-        text-align: justify;
+        text-align: center;
     }
 
     #caveDescp2
@@ -2458,7 +2463,7 @@ body
     {
         font-size: var(--fontSizepPC);
         margin-top: 20px;
-        text-align: justify;
+        text-align: left;
     }
 
 
@@ -2572,7 +2577,7 @@ body
     {
         font-size: var(--fontSizepPC);
         margin-top: 20px;
-        text-align: justify;
+        text-align: left;
     }
 
 
@@ -2694,7 +2699,7 @@ body
     {
         font-size: var(--fontSizeptel);
         margin-top: 20px;
-        text-align: justify;
+        text-align: center;
     }
 
 
@@ -3421,6 +3426,13 @@ body
         text-align: center;
         margin: 50px 0;
     }
+    #sylvainDescart2>img
+    {
+        width: 80%;  
+        object-fit: cover;
+        height: 600px;
+        margin: 0 0 50px 0;
+    }
     #sylvainDescart2p1
     {
         text-align: center;
@@ -3497,11 +3509,11 @@ body
     }
     #sylvainDescart1>div>img
     {
-        height: 250px;
+        height: 450px;
         width: 100%;
         object-fit: cover;
         order: 1;
-        margin-bottom: -310px;
+        margin-bottom: -510px;
     }
     #sylvainDescart1>div>div
     {
@@ -3517,7 +3529,7 @@ body
         color: var(--colorBlue);
         font-family: var(--fontGrasse);
         font-weight: lighter;
-        margin-bottom: 300px;
+        margin-bottom: 500px;
     }
     #sylvainDescart1>div>div>p
     {
@@ -3541,6 +3553,13 @@ body
         text-align: center;
         margin: 50px 0;
     }
+    #sylvainDescart2>img
+    {
+        width: 80%;  
+        object-fit: cover;
+        height: 400px;
+        margin: 0 0 50px 0;
+    }
     #sylvainDescart2p1
     {
         text-align: center;
@@ -3549,7 +3568,6 @@ body
     }
     #sylvainDescart2p2
     {
-        
         text-align: center;
         font-size: var(--fontSizepPC);
         font-family: var(--fontGrasse);
@@ -3667,6 +3685,13 @@ body
         color: #005473;
         text-align: center;
         margin: 50px 0;
+    }
+    #sylvainDescart2>img
+    {
+        width: 100%;  
+        object-fit: cover;
+        height: 300px;
+        margin: 0 0 50px 0;
     }
     #sylvainDescart2p1
     {
@@ -3920,7 +3945,7 @@ body
  */
 
 
-@media only screen and (min-width: 800px)
+@media only screen and (min-width: 1000px)
 {
     footer
     {
@@ -3988,6 +4013,88 @@ body
         text-decoration: underline;
     }
 }
+
+
+
+@media only screen and (min-width: 800px) and (max-width: 999px)
+{
+    footer
+    {
+        background-color: var(--colorBlue);
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: flex-start;
+    }
+    footer>img
+    {
+        width: 35%;
+        height: 300px;
+        object-fit: contain;
+        order: 1;
+    }
+    #coordonnees
+    {
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+        width: 70%;
+        margin: 40px 5%;
+        order: 3;
+    }
+    #horraires
+    {
+        display: flex;
+        justify-content: flex-start;
+        align-items: flex-end;
+        flex-direction: column;
+        width: 60%;
+        margin: 40px 0;
+        order: 2;
+    }
+    #reseaux>a>img
+    {
+        width: 50px;
+        margin: 30px;
+    }
+    #reseaux
+    {
+        position: relative;
+        margin-top: 150px;
+        margin-bottom: -200px;
+        display: flex;
+
+
+    }
+    #horraires>h3
+    {
+        text-align: right;
+    }
+    #horraires>p
+    {
+        text-align: right;
+        margin-top: 20px;
+    }
+    footer>div>h3
+    {
+        font-size: var(--fontSizeh3);
+        color: var(--colorWhite);
+    }
+    footer>div>p
+    {
+        font-size: var(--fontSizepPC);
+        color: var(--colorWhite);
+    }
+    #mentionsLegales
+    {
+        font-size: var(--fontSizepPC);
+        color: var(--colorWhite);
+        text-decoration: underline;
+    }
+}
+
+
+
+
 @media only screen and (max-width: 799px)
 {
     footer
