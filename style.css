@@ -2482,8 +2482,9 @@ body
     }
     #caveDesc1>figure>div>div
     {
-        /* text-orientation: sideways; */
-        writing-mode: sideways-lr;
+        text-orientation: sideways;
+        writing-mode: vertical-rl;
+        text-align: right;
         margin-bottom: 20px;
     }
     #caveDesc1>figure>figcaption
@@ -2592,8 +2593,9 @@ body
     }
     #caveDesc1>figure>div>div
     {
-        /* text-orientation: sideways; */
-        writing-mode: sideways-lr;
+        text-orientation: sideways;
+        writing-mode: vertical-rl;
+        text-align: right;
         margin-bottom: 20px;
     }
     #caveDesc1>figure>figcaption
@@ -2707,8 +2709,9 @@ body
     }
     #caveDesc1>figure>div>div
     {
-        /* text-orientation: sideways; */
-        writing-mode: sideways-lr;
+        text-orientation: sideways;
+        writing-mode: vertical-rl;
+        text-align: right;
         margin-bottom: 20px;
     }
     #caveDesc1>figure>figcaption
